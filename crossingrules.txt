@@ -1,0 +1,15 @@
+: You will be given two points from line A and B, and will have to calculate the intersection of the lines.
+: To do that, you must first find the formulas of the lines.
+: 
+: The basic formula of a line is: y=ax+b .
+: Knowing the points P(X1, Y1) and Q(X2, Y2) that lay on the line, you can find the value of 'a'
+: from the basic formula, by solving this: a = (Y2-Y1)/(X2-X1) .
+: Knowing 'a' you can find the entire line by inserting the values of X and Y
+: from one of the points into the X and Y slots on the basic formula, which will turn your basic formula
+: from y=ax+b to (knownY)=(knownA)*(knownX)+b, and from then you can easily find b.
+: 
+: Do that for both lines, and then to find their intersection point
+: just make an equation out of both lines, e.g. ax+b = ax+b, but with known lines instead of basic formulas.
+: Solve the equation to find the X, and to find Y, insert the X into one of the two lines and solve
+: 
+: I know it's a lot, but the game is made to keep your mind sharp. Now go be a math wizard, i believe in you
